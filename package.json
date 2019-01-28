@@ -53,8 +53,6 @@
     "react-native": ">=0.50.0"
   },
   "scripts": {
-    "lint": "tslint -p .",
-    "test": "jest",
-    "build": "lint && tsc"
+    "build": "tsc --skipLibCheck"
   }
 }
